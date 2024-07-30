@@ -1,0 +1,41 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Security Quiz</h1>
+    </header>
+    <main>
+        <form id="quiz-form">
+            <div class="question-container">
+                <p>Question 1: What is the most common type of cyber attack?</p>
+                <input type="radio" id="q1-opt1" name="q1" value="Phishing">
+                <label for="q1-opt1">Phishing</label>
+                <input type="radio" id="q1-opt2" name="q1" value="Ransomware">
+                <label for="q1-opt2">Ransomware</label>
+                <input type="radio" id="q1-opt3" name="q1" value="SQL Injection">
+                <label for="q1-opt3">SQL Injection</label>
+            </div>
+            <div class="question-container">
+                <p>Question 2: What is the best way to protect against password cracking?</p>
+                <input type="radio" id="q2-opt1" name="q2" value="Use a strong password">
+                <label for="q2-opt1">Use a strong password</label>
+                <input type="radio" id="q2-opt2" name="q2" value="Use two-factor authentication">
+                <label for="q2-opt2">Use two-factor authentication</label>
+                <input type="radio" id="q2-opt3" name="q2" value="Use a password manager">
+                <label for="q2-opt3">Use a password manager</label>
+            </div>
+            <!-- Add more questions here -->
+            <button id="submit-btn">Submit</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
